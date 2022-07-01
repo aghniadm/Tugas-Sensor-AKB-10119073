@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    NIM  : 10119073
+    Nama : Aghnia Dewi Mahiranie
+    Kelas: IF-2
+-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_profile">
+
+    <fragment
+        android:id="@+id/navigation_lokasi"
+        android:name="com.example.tugassensorakb_10119073.view.lokasi.LokasiFragment"
+        android:label="Lokasi"
+        tools:layout="@layout/fragment_lokasi" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.tugassensorakb_10119073.view.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/restoran"
+        android:name="com.example.tugassensorakb_10119073.view.restoran.RestoranFragment"
+        android:label="Restoran"
+        tools:layout="@layout/fragment_restoran" />
+
+    <fragment
+        android:id="@+id/about"
+        android:name="com.example.tugassensorakb_10119073.view.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+
+</navigation>
